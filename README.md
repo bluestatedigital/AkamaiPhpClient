@@ -2,7 +2,7 @@
 
 ## Install
 ```php
-composer install jeremymarc/akamai-php-client
+composer install bluestatedigital/akamai-php-client
 ```
 
 ## Usage
@@ -25,6 +25,9 @@ echo $resp->queueLength;
 https://api.ccu.akamai.com/ccu/v2/docs/index.html
 
 
-## Reporting an issue or a feature request
-Issues and feature requests are tracked in the [Github issue tracker](https://github.com/jeremymarc/AkamaiPhpClient/issues).
+## Differences From Original
+This fork of the library simply adds a helper function for parsing credentials out of an .edgerc file, which we currently have on our servers already for other reasons.
 
+
+## Forked With Love
+This library was originally developed by [Jeremy Marc](https://github.com/jeremymarc).  Thanks for the sweet, sweet code.  This got us off the ground quickly.
