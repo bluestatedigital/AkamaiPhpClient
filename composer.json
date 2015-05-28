@@ -1,5 +1,5 @@
 {
-    "name": "jeremymarc/akamai-php-client",
+    "name": "bluestatedigital/akamai-php-client",
     "description": "Akamai PHP Client",
     "type": "library",
     "homepage": "http://akamai.com",
@@ -22,6 +22,10 @@
         {
             "name": "Jeremy Marc",
             "email": "jeremy@sweetlabs.com"
+        },
+        {
+            "name": "Toby Lawrence",
+            "email": "toby@bluestatedigital.com"
         }
     ]
 }
