@@ -23,7 +23,8 @@ If you want to parse your .edgerc file to get your credentials:
 
 $credentials = new Edgerc('default', '/path/to/my/.edgerc');
 
-// You can now use $credentials->getHost(), $credentials->getClientToken(), $credentials->getClientSecret() and $credentials->getAccessToken().
+// You can now use $credentials->getHost(), $credentials->getClientToken(),
+// $credentials->getClientSecret() and $credentials->getAccessToken().
 ```
 
 
