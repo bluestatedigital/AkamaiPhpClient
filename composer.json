@@ -1,6 +1,6 @@
 {
-    "name": "bluestatedigital/akamai-php-client",
-    "description": "Akamai PHP Client",
+    "name": "bluestatedigital/akamai-api-client",
+    "description": "API client for Akamai's OPEN API in PHP.",
     "type": "library",
     "homepage": "http://akamai.com",
     "license": "MIT",
