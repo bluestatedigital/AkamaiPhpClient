@@ -6,6 +6,8 @@ composer install bluestatedigital/akamai-php-client
 ```
 
 ## Usage
+If you already have your credentials on hand:
+
 ```php
 
 $curl = new Curl;
@@ -15,7 +17,17 @@ $resp = $client->checkQueueLength();
 echo $resp->queueLength;
 ```
 
-## Supported methods
+If you want to parse your .edgerc file to get your credentials:
+
+```php
+
+$credentials = new Edgerc('default', '/path/to/my/.edgerc);
+
+// You can now use $credentials->getHost(), $credentials->getClientToken(), $credentials->getClientSecret() and $credentials->getAccessToken().
+```
+
+
+## Supported API methods/actions
 - checkQueueLength()
 - getPurgeStatus($id)
 - purgeRequest($object)
